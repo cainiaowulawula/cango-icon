@@ -1,4 +1,4 @@
-# cango-icon 图标库
+# init-test
 
 ## Project setup
 ```
@@ -18,14 +18,6 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
-```
-
-### Building component library
-```
-npm run lib
-```
-```
-npm publish
 ```
 
 ### Customize configuration

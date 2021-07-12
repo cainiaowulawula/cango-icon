@@ -1,7 +1,7 @@
 <template>
   <div class="cango">
     <template v-if="type == 'unicode'">
-      <span class="cango-icon" v-html="name"></span>
+      <span :class="tag" class="cango-icon" v-html="name"></span>
       <slot></slot>
     </template>
     <template v-else-if="type == 'symbol'">
@@ -11,7 +11,7 @@
       <slot></slot>
     </template>
     <template v-else>
-      <span class="cango-icon" :class="iconTag"></span>
+      <span :class="[tag, iconTag]" class="cango-icon"></span>
       <slot></slot>
     </template>
   </div>
@@ -19,8 +19,14 @@
 
 <script>
   import "../../static/iconfont/iconfont.js";
+  import {TAG, PREFIX} from '../../config.js'
   export default {
     name: "cango-icon",
+    data() {
+      return {
+        tag: TAG
+      }
+    },
     props: {
       name: {
         type: String,
@@ -33,10 +39,10 @@
     },
     computed: {
       iconTag() {
-        return `cango-icon-${this.name}`;
+        return `${PREFIX}${this.name}`;
       },
       symbolTag() {
-        return `#cango-icon-${this.name}`;
+        return `#${PREFIX}${this.name}`;
       },
     },
   };
