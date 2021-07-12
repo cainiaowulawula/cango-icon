@@ -1,12 +1,12 @@
 <template>
   <div class="cango">
     <template v-if="type == 'unicode'">
-      <span class="cango-iconnfont" v-html="name"></span>
+      <span class="cango-icon" v-html="name"></span>
       <slot></slot>
     </template>
     <template v-else-if="type == 'symbol'">
       <svg class="icon" aria-hidden="true">
-        <use :xlink:href="iconTag"></use>
+        <use :xlink:href="symbolTag"></use>
       </svg>
       <slot></slot>
     </template>
@@ -34,6 +34,9 @@
     computed: {
       iconTag() {
         return `cango-icon-${this.name}`;
+      },
+      symbolTag() {
+        return `#cango-icon-${this.name}`;
       },
     },
   };

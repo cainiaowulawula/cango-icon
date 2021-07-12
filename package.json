@@ -1,6 +1,6 @@
 {
   "name": "cango-icon-plus",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "private": false,
   "author": "gaoqiquan",
   "main": "lib/cango-icon.umd.min.js",
@@ -12,7 +12,7 @@
     "lib": "vue-cli-service build --target lib --name cango-icon --dest lib packages/index.js"
   },
   "dependencies": {
-    "cango-icon": "^1.0.3",
+    "cango-icon": "^1.0.5",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
