@@ -1,0 +1,86 @@
+{
+  "id": "2660324",
+  "name": "测试项目",
+  "font_family": "cango-icon",
+  "css_prefix_text": "cango-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "22737231",
+      "name": "饮料",
+      "font_class": "a-tupianyihuifu-69",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "22753521",
+      "name": "大衣",
+      "font_class": "dayi-copy",
+      "unicode": "f7cd",
+      "unicode_decimal": 63437
+    },
+    {
+      "icon_id": "22654268",
+      "name": "polo",
+      "font_class": "polo",
+      "unicode": "f7b8",
+      "unicode_decimal": 63416
+    },
+    {
+      "icon_id": "22654273",
+      "name": "T恤",
+      "font_class": "Txu",
+      "unicode": "f7bd",
+      "unicode_decimal": 63421
+    },
+    {
+      "icon_id": "22654274",
+      "name": "背心",
+      "font_class": "beixin",
+      "unicode": "f7be",
+      "unicode_decimal": 63422
+    },
+    {
+      "icon_id": "22654275",
+      "name": "毛衣",
+      "font_class": "maoyi",
+      "unicode": "f7bf",
+      "unicode_decimal": 63423
+    },
+    {
+      "icon_id": "22654276",
+      "name": "卫衣",
+      "font_class": "weiyi",
+      "unicode": "f7c0",
+      "unicode_decimal": 63424
+    },
+    {
+      "icon_id": "22654277",
+      "name": "衬衫",
+      "font_class": "chenshan",
+      "unicode": "f7c1",
+      "unicode_decimal": 63425
+    },
+    {
+      "icon_id": "22654284",
+      "name": "大衣",
+      "font_class": "dayi",
+      "unicode": "f7c7",
+      "unicode_decimal": 63431
+    },
+    {
+      "icon_id": "22654287",
+      "name": "棉衣",
+      "font_class": "mianyi",
+      "unicode": "f7ca",
+      "unicode_decimal": 63434
+    },
+    {
+      "icon_id": "22654289",
+      "name": "羽绒服",
+      "font_class": "yurongfu",
+      "unicode": "f7cc",
+      "unicode_decimal": 63436
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "cango-icon"; /* Project id 2660324 */
+  src: url('iconfont.woff2?t=1625876807784') format('woff2'),
+       url('iconfont.woff?t=1625876807784') format('woff'),
+       url('iconfont.ttf?t=1625876807784') format('truetype');
+}
+
+.cango-icon {
+  font-family: "cango-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cango-icon-a-tupianyihuifu-69:before {
+  content: "\e60d";
+}
+
+.cango-icon-dayi-copy:before {
+  content: "\f7cd";
+}
+
+.cango-icon-polo:before {
+  content: "\f7b8";
+}
+
+.cango-icon-Txu:before {
+  content: "\f7bd";
+}
+
+.cango-icon-beixin:before {
+  content: "\f7be";
+}
+
+.cango-icon-maoyi:before {
+  content: "\f7bf";
+}
+
+.cango-icon-weiyi:before {
+  content: "\f7c0";
+}
+
+.cango-icon-chenshan:before {
+  content: "\f7c1";
+}
+
+.cango-icon-dayi:before {
+  content: "\f7c7";
+}
+
+.cango-icon-mianyi:before {
+  content: "\f7ca";
+}
+
+.cango-icon-yurongfu:before {
+  content: "\f7cc";
+}
+
